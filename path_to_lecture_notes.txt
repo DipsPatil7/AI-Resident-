@@ -1,0 +1,38 @@
+1. Introduction to Natural Language Processing
+Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. The ultimate goal of NLP is to enable computers to understand, interpret, and respond to human language in a way that is both meaningful and useful.
+
+2. Milestone Model Architectures
+2.1 Transformer
+The Transformer model, introduced by Vaswani et al. in 2017, revolutionized NLP with its self-attention mechanism. It allows for the handling of long-range dependencies in text, making it more effective than previous RNN and LSTM models.
+
+2.2 BERT
+BERT (Bidirectional Encoder Representations from Transformers), developed by Devlin et al. in 2018, utilizes bidirectional training of Transformer to achieve state-of-the-art performance on a wide array of NLP tasks.
+
+2.3 GPT
+Generative Pre-trained Transformer (GPT) models, introduced by OpenAI, have set new benchmarks in language understanding and generation. GPT-3, the latest iteration, has 175 billion parameters, making it one of the largest and most powerful language models to date.
+
+3. Layers in a Transformer Block
+A Transformer block consists of several key components:
+3.1 Multi-Head Self-Attention
+This mechanism allows the model to focus on different parts of the input sequence simultaneously, improving the ability to capture relationships between words.
+3.2 Feed-Forward Neural Network
+Each attention output is passed through a feed-forward neural network, which helps in learning complex transformations.
+3.3 Layer Normalization and Residual Connections
+These techniques help stabilize training and enable deeper networks.
+
+4. Datasets Used to Train LLMs
+4.1 Common Crawl
+A vast dataset of web pages used for training many large language models. It includes a diverse range of text from different domains and languages.
+4.2 Wikipedia
+A comprehensive dataset comprising articles from Wikipedia. It is widely used for training due to its structured and extensive content.
+4.3 BooksCorpus
+A dataset consisting of thousands of books, providing rich and diverse linguistic content.
+
+5. Data Cleaning Techniques
+5.1 Removing Duplicates
+Ensures that the training data does not contain redundant information, which could skew the learning process.
+5.2 Normalizing Text
+Involves converting text to a standard format, such as lowercasing and removing special characters.
+5.3 Filtering Out Low-Quality Content
+Excludes text that is irrelevant or of poor quality, ensuring that the training data is representative and useful.
+

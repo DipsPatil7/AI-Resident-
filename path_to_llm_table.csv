@@ -1,0 +1,12 @@
+Model,Authors,Publication Year,Key Features,Notes
+Transformer,Vaswani et al.,2017,Self-attention mechanism,Revolutionized NLP with self-attention and parallelization.
+BERT,Devlin et al.,2018,Bidirectional training,Achieved state-of-the-art performance on a wide array of NLP tasks.
+GPT-3,Brown et al.,2020,175 billion parameters,One of the largest and most powerful language models to date.
+RoBERTa,Liu et al.,2019,Optimized BERT training,Improved performance by tweaking BERT's hyperparameters and using larger datasets.
+T5,Raffel et al.,2020,Text-to-Text framework,Unified approach to NLP tasks treating every problem as text-to-text.
+XLNet,Yang et al.,2019,Permutation-based training,Improved over BERT by capturing bidirectional contexts using autoregressive methods.
+ALBERT,Lan et al.,2019,Parameter efficiency,Reduced model size while maintaining performance through parameter sharing.
+GPT-2,Radford et al.,2019,Zero-shot learning,Demonstrated strong zero-shot capabilities in various tasks.
+DistilBERT,Sanh et al.,2019,Model distillation,Smaller and faster version of BERT with minimal loss in performance.
+BART,Lewis et al.,2019,Seq2Seq with denoising autoencoder,Combines bidirectional and autoregressive transformers for improved text generation.
+Electra,Clark et al.,2020,Replaced token detection,Efficient pre-training approach that replaces tokens instead of masking them.
